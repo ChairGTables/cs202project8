@@ -1,0 +1,542 @@
+Script started on Wed 01 Apr 2015 11:44:41 PM PDT
+jorieljustina@ecc-d-11vm14:~/cs202/project8$ ./maindrive[K[K[K[K[K[K[K[K[K[K[Kmake
+g++ -c -Wall -g classes.cpp  
+g++ maindriver.cpp classes.o -o maindriver
+jorieljustina@ecc-d-11vm14:~/cs202/project8$ ./maindriver
+
+How many dudes are playing today? (Input 2 - 8 players)
+2
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+1
+
+Name of file to be read:
+cardkl  list
+List of cards successfully read!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+2
+
+Cards successfully shuffled!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+3
+
+Name of file to be read:
+namelist
+List of players successfully read!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+4
+
+Cards successfully dealt!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+5
+
+UNSHUFFLED DECK
+
+heart	two	unshuffled
+heart	three	unshuffled
+heart	four	unshuffled
+heart	five	unshuffled
+heart	six	unshuffled
+heart	seven	unshuffled
+heart	eight	unshuffled
+heart	nine	unshuffled
+heart	ten	unshuffled
+heart	jack	unshuffled
+heart	queen	unshuffled
+heart	king	unshuffled
+heart	ace	unshuffled
+club	two	unshuffled
+club	three	unshuffled
+club	four	unshuffled
+club	five	unshuffled
+club	six	unshuffled
+club	seven	unshuffled
+club	eight	unshuffled
+club	nine	unshuffled
+club	ten	unshuffled
+club	jack	unshuffled
+club	queen	unshuffled
+club	king	unshuffled
+club	ace	unshuffled
+diamond	two	unshuffled
+diamond	three	unshuffled
+diamond	four	unshuffled
+diamond	five	unshuffled
+diamond	six	unshuffled
+diamond	seven	unshuffled
+diamond	eight	unshuffled
+diamond	nine	unshuffled
+diamond	ten	unshuffled
+diamond	jack	unshuffled
+diamond	queen	unshuffled
+diamond	king	unshuffled
+diamond	ace	unshuffled
+spade	two	unshuffled
+spade	three	unshuffled
+spade	four	unshuffled
+spade	five	unshuffled
+spade	six	unshuffled
+spade	seven	unshuffled
+spade	eight	unshuffled
+spade	nine	unshuffled
+spade	ten	unshuffled
+spade	jack	unshuffled
+spade	queen	unshuffled
+spade	king	unshuffled
+spade	ace	unshuffled
+
+
+SHUFFLED DECK
+
+spade	ten	shuffled
+spade	seven	shuffled
+heart	nine	shuffled
+club	seven	shuffled
+diamond	eight	shuffled
+spade	nine	shuffled
+heart	five	shuffled
+diamond	four	shuffled
+diamond	jack	shuffled
+spade	eight	shuffled
+spade	ace	shuffled
+club	two	shuffled
+heart	king	shuffled
+heart	jack	shuffled
+club	four	shuffled
+diamond	six	shuffled
+club	five	shuffled
+spade	jack	shuffled
+diamond	nine	shuffled
+spade	six	shuffled
+heart	two	shuffled
+club	ten	shuffled
+diamond	ace	shuffled
+club	eight	shuffled
+club	queen	shuffled
+diamond	five	shuffled
+heart	ten	shuffled
+diamond	queen	shuffled
+club	nine	shuffled
+diamond	seven	shuffled
+diamond	ten	shuffled
+spade	king	shuffled
+club	jack	shuffled
+spade	three	shuffled
+diamond	king	shuffled
+spade	five	shuffled
+spade	four	shuffled
+heart	three	shuffled
+heart	six	shuffled
+heart	queen	shuffled
+heart	eight	shuffled
+heart	four	shuffled
+club	king	shuffled
+club	ace	shuffled
+heart	ace	shuffled
+club	three	shuffled
+diamond	two	shuffled
+club	six	shuffled
+heart	seven	shuffled
+diamond	three	shuffled
+spade	queen	shuffled
+spade	two	shuffled
+
+
+DISCARD PILE
+
+club	two	discard
+
+
+STOCK PILE
+
+heart	king	stock
+heart	jack	stock
+club	four	stock
+diamond	six	stock
+club	five	stock
+spade	jack	stock
+diamond	nine	stock
+spade	six	stock
+heart	two	stock
+club	ten	stock
+diamond	ace	stock
+club	eight	stock
+club	queen	stock
+diamond	five	stock
+heart	ten	stock
+diamond	queen	stock
+club	nine	stock
+diamond	seven	stock
+diamond	ten	stock
+spade	king	stock
+club	jack	stock
+spade	three	stock
+diamond	king	stock
+spade	five	stock
+spade	four	stock
+heart	three	stock
+heart	six	stock
+heart	queen	stock
+heart	eight	stock
+heart	four	stock
+club	king	stock
+club	ace	stock
+heart	ace	stock
+club	three	stock
+diamond	two	stock
+club	six	stock
+heart	seven	stock
+diamond	three	stock
+spade	queen	stock
+spade	two	stock
+
+
+PLAYER INFORMATION
+
+Bob Smith
+spade	ten	Bob Smith
+heart	nine	Bob Smith
+diamond	eight	Bob Smith
+heart	five	Bob Smith
+diamond	jack	Bob Smith
+$0
+
+Barack Obama
+spade	seven	Barack Obama
+club	seven	Barack Obama
+spade	nine	Barack Obama
+diamond	four	Barack Obama
+spade	eight	Barack Obama
+$0
+
+
+
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+6
+
+jorieljustina@ecc-d-11vm14:~/cs202/project8$ ./maindriver
+
+How many dudes are playing today? (Input 2 - 8 players)
+8
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+1
+
+Name of file to be read:
+cardlist
+List of cards successfully read!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+2
+
+Cards successfully shuffled!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+2
+
+Cards successfully shuffled!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+3
+
+Name of file to be read:
+namelist
+List of players successfully read!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+4
+
+Cards successfully dealt!
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+5
+
+UNSHUFFLED DECK
+
+heart	two	unshuffled
+heart	three	unshuffled
+heart	four	unshuffled
+heart	five	unshuffled
+heart	six	unshuffled
+heart	seven	unshuffled
+heart	eight	unshuffled
+heart	nine	unshuffled
+heart	ten	unshuffled
+heart	jack	unshuffled
+heart	queen	unshuffled
+heart	king	unshuffled
+heart	ace	unshuffled
+club	two	unshuffled
+club	three	unshuffled
+club	four	unshuffled
+club	five	unshuffled
+club	six	unshuffled
+club	seven	unshuffled
+club	eight	unshuffled
+club	nine	unshuffled
+club	ten	unshuffled
+club	jack	unshuffled
+club	queen	unshuffled
+club	king	unshuffled
+club	ace	unshuffled
+diamond	two	unshuffled
+diamond	three	unshuffled
+diamond	four	unshuffled
+diamond	five	unshuffled
+diamond	six	unshuffled
+diamond	seven	unshuffled
+diamond	eight	unshuffled
+diamond	nine	unshuffled
+diamond	ten	unshuffled
+diamond	jack	unshuffled
+diamond	queen	unshuffled
+diamond	king	unshuffled
+diamond	ace	unshuffled
+spade	two	unshuffled
+spade	three	unshuffled
+spade	four	unshuffled
+spade	five	unshuffled
+spade	six	unshuffled
+spade	seven	unshuffled
+spade	eight	unshuffled
+spade	nine	unshuffled
+spade	ten	unshuffled
+spade	jack	unshuffled
+spade	queen	unshuffled
+spade	king	unshuffled
+spade	ace	unshuffled
+
+
+SHUFFLED DECK
+
+club	six	shuffled
+heart	four	shuffled
+heart	seven	shuffled
+diamond	ten	shuffled
+heart	eight	shuffled
+spade	ace	shuffled
+diamond	queen	shuffled
+club	five	shuffled
+club	two	shuffled
+heart	ten	shuffled
+diamond	four	shuffled
+diamond	eight	shuffled
+club	ace	shuffled
+heart	three	shuffled
+spade	four	shuffled
+heart	king	shuffled
+heart	six	shuffled
+spade	queen	shuffled
+club	eight	shuffled
+club	king	shuffled
+diamond	jack	shuffled
+heart	ace	shuffled
+spade	three	shuffled
+diamond	ace	shuffled
+club	seven	shuffled
+heart	queen	shuffled
+club	nine	shuffled
+club	queen	shuffled
+heart	jack	shuffled
+spade	jack	shuffled
+club	jack	shuffled
+spade	two	shuffled
+heart	two	shuffled
+spade	seven	shuffled
+diamond	king	shuffled
+club	ten	shuffled
+spade	ten	shuffled
+heart	five	shuffled
+club	three	shuffled
+heart	nine	shuffled
+spade	nine	shuffled
+diamond	three	shuffled
+spade	eight	shuffled
+diamond	five	shuffled
+diamond	seven	shuffled
+diamond	two	shuffled
+spade	five	shuffled
+diamond	nine	shuffled
+club	four	shuffled
+diamond	six	shuffled
+spade	six	shuffled
+spade	king	shuffled
+
+
+DISCARD PILE
+
+diamond	three	discard
+
+
+STOCK PILE
+
+spade	eight	stock
+diamond	five	stock
+diamond	seven	stock
+diamond	two	stock
+spade	five	stock
+diamond	nine	stock
+club	four	stock
+diamond	six	stock
+spade	six	stock
+spade	king	stock
+
+
+PLAYER INFORMATION
+
+Bob Smith
+club	six	Bob Smith
+club	two	Bob Smith
+heart	six	Bob Smith
+club	seven	Bob Smith
+heart	two	Bob Smith
+$0
+
+Barack Obama
+heart	four	Barack Obama
+heart	ten	Barack Obama
+spade	queen	Barack Obama
+heart	queen	Barack Obama
+spade	seven	Barack Obama
+$0
+
+George Bush
+heart	seven	George Bush
+diamond	four	George Bush
+club	eight	George Bush
+club	nine	George Bush
+diamond	king	George Bush
+$0
+
+Spaghetti Man
+diamond	ten	Spaghetti Man
+diamond	eight	Spaghetti Man
+club	king	Spaghetti Man
+club	queen	Spaghetti Man
+club	ten	Spaghetti Man
+$0
+
+Tony Stark
+heart	eight	Tony Stark
+club	ace	Tony Stark
+diamond	jack	Tony Stark
+heart	jack	Tony Stark
+spade	ten	Tony Stark
+$0
+
+Muhammad Ali
+spade	ace	Muhammad Ali
+heart	three	Muhammad Ali
+heart	ace	Muhammad Ali
+spade	jack	Muhammad Ali
+heart	five	Muhammad Ali
+$0
+
+Elvis Presley
+diamond	queen	Elvis Presley
+spade	four	Elvis Presley
+spade	three	Elvis Presley
+club	jack	Elvis Presley
+club	three	Elvis Presley
+$0
+
+Jane Doe
+club	five	Jane Doe
+heart	king	Jane Doe
+diamond	ace	Jane Doe
+spade	two	Jane Doe
+heart	nine	Jane Doe
+$0
+
+
+
+
+What do you want to do?
+1. Read a deck of cards in from file
+2. Shuffle the deck of cards
+3. Read in a list of players from file
+4. Deal first round of cards to the players
+5. Print the unshuffled deck, unshuffled deck, discarded cards, remaining cards, and player information to screen
+6. Quit
+6
+
+jorieljustina@ecc-d-11vm14:~/cs202/project8$ exit
+
+Script done on Wed 01 Apr 2015 11:46:00 PM PDT
